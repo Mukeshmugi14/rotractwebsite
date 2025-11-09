@@ -1,6 +1,6 @@
 import { NavLink, Project, ProjectCategory, Event, GalleryImage, TeamMember } from './types';
 
-export const LOGO_URL = 
+export const LOGO_URL = "https://github.com/Mukeshmugi14/rotractwebsite/blob/main/clublogo.jpg?raw=true";
 
 export const HERO_BANNER_URL = 
 
