@@ -2,7 +2,7 @@ import { NavLink, Project, ProjectCategory, Event, GalleryImage, TeamMember } fr
 
 export const LOGO_URL = "https://github.com/Mukeshmugi14/rotractwebsite/blob/main/clublogo.jpg?raw=true";
 
-export const HERO_BANNER_URL = 
+export const HERO_BANNER_URL = "https://github.com/Mukeshmugi14/rotractwebsite/blob/main/grouphoto.jpg?raw=true";
 
 export const NAV_LINKS: NavLink[] = [
   { name: 'Home' },
