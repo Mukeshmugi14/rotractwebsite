@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Page } from '../types';
 import { LOGO_URL } from '../constants';
@@ -8,7 +9,7 @@ interface FooterProps {
 }
 
 const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
-  const quickLinks: Page[] = ['Home', 'Projects', 'Events', 'Join Us', 'Contact'];
+  const quickLinks: Page[] = ['Home', 'Projects', 'Team', 'Events', 'Contact'];
 
   return (
     <footer className="bg-light-navy text-slate">
@@ -20,7 +21,7 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
                <img src={LOGO_URL} alt="Rotaract Club of Chennai Radiance Risers Logo" className="h-14 w-14 rounded-full object-cover" />
               <h3 className="text-xl font-bold text-light-slate">Rotaract Club of Chennai Radiance Risers</h3>
             </div>
-            <p className="text-sm">A part of Rotary Club of Chennai Radiance Family, RID 3233.</p>
+            <p className="text-sm">Rotary Club of Chennai Radiance Family, RID 3233.</p>
           </div>
 
           {/* Quick Links */}

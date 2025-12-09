@@ -1,5 +1,6 @@
 
-export type Page = 'Home' | 'About' | 'Projects' | 'Events' | 'Gallery' | 'Join Us' | 'Contact';
+
+export type Page = 'Home' | 'About' | 'Team' | 'Projects' | 'Events' | 'Gallery' | 'Contact';
 
 export interface NavLink {
   name: Page;
@@ -20,6 +21,11 @@ export interface Project {
   impact: string;
   imageUrl: string;
   isFlagship?: boolean;
+  // New detailed fields
+  longDescription?: string;
+  gallery?: string[];
+  date?: string;
+  location?: string;
 }
 
 export interface Event {
@@ -43,6 +49,6 @@ export interface TeamMember {
   id: number;
   name: string;
   role: string;
+  category: 'Core Board' | 'Board of Directors' | 'Avenue Directors' | 'Club Members';
   imageUrl: string;
 }
-   
