@@ -1,8 +1,10 @@
 import { NavLink, Project, ProjectCategory, Event, GalleryImage, TeamMember } from './types';
 
-export const LOGO_URL = "https://github.com/Mukeshmugi14/rotractwebsite/blob/main/clublogo.jpg?raw=true";
+// FIX: Removed trailing comma.
+export const LOGO_URL = 'https://raw.githubusercontent.com/Mukeshmugi14/rotractwebsite/refs/heads/main/clublogo.jpg';
 
-export const HERO_BANNER_URL = "https://github.com/Mukeshmugi14/rotractwebsite/blob/main/grouphoto.jpg?raw=true";
+// FIX: Removed trailing comma.
+export const HERO_BANNER_URL = 'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/grouphoto.jpg?raw=true';
 
 export const NAV_LINKS: NavLink[] = [
   { name: 'Home' },

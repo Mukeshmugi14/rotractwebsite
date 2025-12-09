@@ -16,8 +16,8 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Section */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-               <img src={LOGO_URL} alt="Rotaract Club of Chennai Radiance Risers Logo" className="h-14 w-auto" />
+            <div className="flex items-center space-x-4">
+               <img src={LOGO_URL} alt="Rotaract Club of Chennai Radiance Risers Logo" className="h-14 w-14 rounded-full object-cover" />
               <h3 className="text-xl font-bold text-light-slate">Rotaract Club of Chennai Radiance Risers</h3>
             </div>
             <p className="text-sm">A part of Rotary Club of Chennai Radiance Family, RID 3233.</p>

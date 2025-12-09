@@ -17,7 +17,7 @@ const HomePage: React.FC<HomePageProps> = ({ setCurrentPage }) => {
           <img 
             src={LOGO_URL} 
             alt="Rotaract Club of Chennai Radiance Risers Logo" 
-            className="w-auto h-28 md:h-36 mb-4 opacity-0 animate-fadeIn" 
+            className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover mb-4 opacity-0 animate-fadeIn" 
             style={{ animationDelay: '200ms' }}
           />
           <h1 
