@@ -214,9 +214,9 @@ export const PROJECTS: Project[] = [
     impact: 'Giving Orphanage children a voice for their dreams and transforming compassion into a committed promise for future action.',
     imageUrl: 'https://picsum.photos/seed/global/600/400',
     gallery: [
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/lit1.ter1?raw=true',
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/li12.ter2?raw=true',
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/li12.ter3?raw=true'
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/ter1.jpg?raw=true,
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/ter2.ter2?raw=true',
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/ter3.ter3?raw=true'
     ]
   },
    {
