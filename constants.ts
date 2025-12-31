@@ -136,7 +136,7 @@ export const PROJECTS: Project[] = [
     imageUrl: 'https://picsum.photos/seed/linkedin/600/400',
     gallery: [
       "https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/lgt1.jpeg?raw=true",
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/lgt2.jpeg?raw=true',
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/lgt2.jpeg?raw=true',
       'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/lgt3.jpeg?raw=true'
     ]
   },
@@ -214,7 +214,7 @@ export const PROJECTS: Project[] = [
     impact: 'Giving Orphanage children a voice for their dreams and transforming compassion into a committed promise for future action.',
     imageUrl: 'https://picsum.photos/seed/global/600/400',
     gallery: [
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/ter1.jpeg?raw=true,
+      'https://drive.google.com/file/d/1kZg5iJD5kH9qqrryPSe9N3Rjzy5xbQxy/view?usp=drive_link',
       'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/ter2.jpg?raw=true',
       'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/ter3.jpg?raw=true'
     ]
