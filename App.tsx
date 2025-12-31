@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import HomePage from './components/pages/HomePage';
 import AboutUsPage from './components/pages/AboutUsPage';
 import ProjectsPage from './components/pages/ProjectsPage';
-import EventsPage from './components/pages/EventsPage';
 import GalleryPage from './components/pages/GalleryPage';
 import ContactPage from './components/pages/ContactPage';
 import TeamPage from './components/pages/TeamPage';
@@ -24,8 +23,6 @@ const App: React.FC = () => {
         return <TeamPage />;
       case 'Projects':
         return <ProjectsPage />;
-      case 'Events':
-        return <EventsPage />;
       case 'Gallery':
         return <GalleryPage />;
       case 'Contact':
