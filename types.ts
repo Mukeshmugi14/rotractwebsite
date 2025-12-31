@@ -1,6 +1,6 @@
 
 
-export type Page = 'Home' | 'About' | 'Team' | 'Projects' | 'Events' | 'Gallery' | 'Contact';
+export type Page = 'Home' | 'About' | 'Team' | 'Projects' | 'Gallery' | 'Contact';
 
 export interface NavLink {
   name: Page;
