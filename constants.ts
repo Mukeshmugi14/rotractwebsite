@@ -17,7 +17,6 @@ export const NAV_LINKS: NavLink[] = [
   { name: 'About' },
   { name: 'Team' },
   { name: 'Projects' },
-  { name: 'Events' },
   { name: 'Gallery' },
   { name: 'Contact' },
 ];
@@ -192,11 +191,11 @@ export const PROJECTS: Project[] = [
     id: 10,
     title: 'Litride',
     category: ProjectCategory.Community,
-    description: 'LitRide- The Literacy Ride ',
+    description: 'LitRide is a high-impact awareness initiative carried out on the occasion of International Literacy Day',
     longDescription: 'LitRide is a high-impact awareness initiative carried out on the occasion of International Literacy Day, bringing together a team of 10 passionate riders on a 600 km journey from Porur, Chennai, to Karnataka. The mission of the ride was simple yet powerful—to spread the message of literacy and inspire communities to value education as a tool for empowerment.Throughout the route, riders engaged with local communities, distributed awareness materials, and sparked conversations on the importance of reading, learning, and accessible education for all. The long-distance ride symbolised determination, purpose, and the collective responsibility to uplift society through literacy.By turning the road into a moving platform for awareness, LitRide served as a reminder that progress begins with education—and every kilometre ridden was a step toward a more informed and empowered future.',
     date: 'October 10, 2024',
     location: 'Virtual (Zoom)',
-    impact: 'Partnered with clubs from 5 countries.',
+    impact: ' Riders engaged with local communities, distributed awareness materials, and sparked conversations on the importance of reading, learning, and accessible education for all',
     imageUrl: 'https://picsum.photos/seed/global/600/400',
     gallery: [
       'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/lit1.jpg?raw=true',
