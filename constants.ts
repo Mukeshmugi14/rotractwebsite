@@ -135,8 +135,9 @@ export const PROJECTS: Project[] = [
     impact: 'The initiative empowered members with practical skills, creative confidence, emotional intelligence, and professional readiness through peer-led learning.',
     imageUrl: 'https://picsum.photos/seed/linkedin/600/400',
     gallery: [
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/mat1.jpg?raw=true',
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/mat2.jpg?raw=true',
+      "https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/lgt1.jpeg?raw=true",
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/lgt2.jpg?raw=true',
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/lgt3.jpeg?raw=true'
     ]
   },
   {
@@ -213,8 +214,9 @@ export const PROJECTS: Project[] = [
     impact: 'Giving Orphanage children a voice for their dreams and transforming compassion into a committed promise for future action.',
     imageUrl: 'https://picsum.photos/seed/global/600/400',
     gallery: [
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/lit1.jpg?raw=true',
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/li12.jpg?raw=true'
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/lit1.ter1?raw=true',
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/li12.ter2?raw=true',
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/li12.ter3?raw=true'
     ]
   },
    {
@@ -228,9 +230,10 @@ export const PROJECTS: Project[] = [
     impact: 'The challenge helped members build mindful self-care habits, reduce stress, and feel more connected to themselves and the community.',
     imageUrl: 'https://picsum.photos/seed/fellowship/600/400',
     gallery: [
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/scl1.jpg?raw=true',
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/scl2.jpg?raw=true',
-       'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/scl3.jpg?raw=true'
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/pse1.jpg?raw=true',
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/pse2.jpg?raw=true',
+       'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/pse3.jpg?raw=true',
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/pse4.jpg?raw=true'
     ]
   },
    {
@@ -244,8 +247,8 @@ export const PROJECTS: Project[] = [
     impact: 'The initiative inspired awareness, empathy, and informed perspectives on organ donation while strengthening international collaboration among youth.',
     imageUrl: 'https://picsum.photos/seed/global/600/400',
     gallery: [
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/ind1.jpg?raw=true',
-      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/ind2.jpg?raw=true'
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/out1.jpg?raw=true',
+      'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/out2.jpg?raw=true'
     ]
    },
 ];
