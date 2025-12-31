@@ -248,10 +248,10 @@ export const PROJECTS: Project[] = [
       'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/ind1.jpg?raw=true',
       'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/ind2.jpg?raw=true'
     ]
-
+   },
 ];
 
-export const GALLERY_IMAGES: GalleryImage[] = [
+ export const GALLERY_IMAGES: GalleryImage[] = [
   { id: 1, category: 'Events', src: 'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/gal9.jpg?raw=true', alt: 'Group photo at an Assembly' },
   { id: 2, category: 'Projects', src: 'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/gal1.jpg?raw=true', alt: 'Club Instalation' },
   { id: 3, category: 'Fellowship', src: 'https://github.com/Mukeshmugi14/rotractwebsite/blob/main/components/gal5.jpg?raw=true', alt: 'Club First Project Day' },
