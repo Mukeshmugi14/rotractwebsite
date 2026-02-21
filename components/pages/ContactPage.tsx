@@ -40,12 +40,12 @@ const ContactPage: React.FC = () => {
                 <div className="space-y-4">
                     <p className="flex items-center">
                         <svg className="w-5 h-5 mr-3 text-rotary-yellow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                        <span>radiance.risers@gmail.com</span>
+                        <span>bsathya2000@gmail.com</span>
                     </p>
                     <div className="flex space-x-4 pt-4">
                         <a href="#" aria-label="Instagram" className="text-slate hover:text-rotary-yellow transition-colors"><InstagramIcon /></a>
                         <a href="#" aria-label="LinkedIn" className="text-slate hover:text-rotary-yellow transition-colors"><LinkedinIcon /></a>
-                        <a href="#" aria-label="WhatsApp" className="text-slate hover:text-rotary-yellow transition-colors"><WhatsAppIcon /></a>
+                        <a href="https://wa.me/919342218833" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="text-slate hover:text-rotary-yellow transition-colors"><WhatsAppIcon /></a>
                     </div>
                 </div>
             </div>
