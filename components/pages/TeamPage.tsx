@@ -16,7 +16,7 @@ const TeamPage: React.FC = () => {
     <div className="container mx-auto px-6 py-16 space-y-16">
       <section className="text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-light-slate mb-4">Meet Our Leaders</h1>
-        <p className="text-rotary-yellow text-lg">The Driving Force Behind Radiance Risers</p>
+        <p className="text-rotary-yellow text-lg">The Driving Force Behind Radiance Raisers</p>
       </section>
 
       {categories.map((category) => {
