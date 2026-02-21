@@ -24,7 +24,7 @@ export const NAV_LINKS: NavLink[] = [
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: 'Sathyaudhayam',
+    title: 'Sathyodhayam',
     category: ProjectCategory.Club,
     description: 'The Second Installation Ceremony of the Rotaract Club of Chennai Radiance Raisers was conducted to formally induct the new team of office bearers for the Rotaract year.',
     longDescription: 'The Second Installation Ceremony of the Rotaract Club of Chennai Radiance Raisers was  conducted to formally induct the new team of office bearers for the Rotaract year. The event  marked the smooth transition of responsibilities from the outgoing board to the incoming leaders,  with dignitaries, members, and guests gracing the occasion. Alongside felicitations and inspiring  addresses, the ceremony also featured the official launch of the club’s new identity elements,  including Club Standee, ID Cards, Letterheads, T-Shirts, and Banners. These launches  symbolized the spirit of innovation and professionalism, setting the tone for the year ahead. The  program not only recognized past achievements but also celebrated fellowship and inspired  members to embrace greater service and leadership.',
@@ -75,7 +75,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 4,
-    title: 'Independenceday 2.0',
+    title: 'Independence 2.0',
     category: ProjectCategory.International,
     description: 'A Group Discussion and Debate about Modern freedom and politics with the Rotaract club of Navi Mumbai Samaritans. .',
     longDescription: '"Independence 2.0 was a collaborative project exploring the concept of new age freedom, conducted with members of our club and the Rotaract Club of Navi Mumbai Samaritans, RID 3142. The session was moderated by Ms. Aswathi Sebastian, a professional social worker, who guided the discussion and encouraged thoughtful reflection. Participants engaged in a meaningful group discussion, sharing diverse perspectives on what freedom means in today’s world—ranging from digital autonomy and mental well-being to social expression and evolving personal rights. This collaboration strengthened international service bonds by bringing together members from different districts to exchange ideas and cultural perspectives. It fostered unity, shared learning, and a broader understanding of global viewpoints on freedom, while also encouraging sustained partnerships for future international initiatives.',
@@ -125,7 +125,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 12,
-    title: 'LGT',
+    title: 'Lets Grow Together',
     category: ProjectCategory.Professional,
     description: "Lets grow Together, a peer Knowledge and Skill Sharing from club members",
     longDescription:'Let’s Grow Together is a peer-learning initiative that promotes collaborative skill-sharing and continuous growth among members. As part of this initiative, interactive sessions on graphic design, mental wellness & career decision-making, and portrait drawing were conducted by fellow members with professional expertise. These sessions emphasized hands-on learning, knowledge exchange, and holistic skill development.' ,
@@ -142,7 +142,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 7,
-    title: 'Duram',
+    title: 'Dhooram',
     category: ProjectCategory.Community,
     description: 'Dhooram is a menstrual-awareness initiative that breaks silence and stigma, spreading knowledge, dignity, and confidence so every girl and woman can move through life without fear or shame',
     longDescription: '"This community service initiative was conducted at the Narikuravar Colony in Pallavaram, focusing on creating open and honest conversations around menstrual health among an underprivileged community where traditional practices often limit personal hygiene—such as the custom of not wearing underwear. Recognising these cultural realities, the project aimed to introduce safe, practical, and culturally sensitive hygiene practices.Awareness sessions were held to help women understand their menstrual cycle, the importance of maintaining hygiene, and methods they can adopt in their daily lives to stay healthy and comfortable. To deepen understanding and engagement, a street play was performed, using visual storytelling to break stigma and make essential information more accessible.As part of the initiative, we distributed sanitary kits—each containing a cotton cloth, sanitary napkin, soap, and shampoo—to support the women’s hygiene needs. These kits were thoughtfully prepared by club members, ensuring dignity, care, and respect in every detail.This project served as a meaningful step toward improving menstrual awareness, promoting healthier practices, and empowering women within the community through compassion, education, and practical support.',
@@ -158,7 +158,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 8,
-    title: 'Meendum Paliku Pogalam',
+    title: 'Meendum Palliku Pogalam',
     category: ProjectCategory.Club,
     description: 'The "மீண்டும் பள்ளிக்கு போகலாம்" project is made for Bring school memories and good bonding between with other members .where we got to experience  typical school day looks like. The trip aimed to learning something new and create a good memories on learning experience and us a glimpse into the daily life of Members.',
     longDescription: '"மீண்டும் பள்ளிக்கு போகலாம் was a club service initiative designed to rekindle school memories and strengthen bonding among members by recreating the experience of a typical school day. Members dressed as students in uniforms, while some took on playful roles such as teachers, subject heads, and even the principal, creating an immersive and nostalgic atmosphere.As part of the experience, the club organised a one-day excursion to the Egmore Museum, offering participants the chance to learn, explore, and relive the excitement of a classic school field trip. The visit blended fun and learning, giving members a glimpse into art, culture, and history while building memorable shared experiences.By combining nostalgic school-life elements with an educational outing, the project fostered camaraderie, enriched learning, and created enduring memories within the club.',
@@ -174,7 +174,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 3,
-    title: 'Kaai Maanu Aalavu',
+    title: 'Kai Mann Alavu',
     category: ProjectCategory.Professional,
     description: 'Club Orientation and Board Official training session ',
     longDescription: '"Kai Mann Alavu was a structured club orientation and learning seminar designed to equip Rotaract members and board officials with a clear understanding of the organisation and their responsibilities. Held at Bluedot Academy, the program featured four distinguished speakers from the District Council who provided insights into Rotaract’s core values, operations, avenues of service, and leadership expectations.The seminar helped members understand how the club functions, the significance of their individual roles, and how to work collaboratively toward club goals. An engaging ice-breaking session further strengthened bonding, encouraged participation, and built team spirit among members.By offering both knowledge and connection, Kai Mann Alavu ensured that members—especially board officials—were well-prepared, confident, and aligned with the vision of the Rotaract movement for the year ahead.',
