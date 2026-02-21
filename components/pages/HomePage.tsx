@@ -94,7 +94,7 @@ const HomePage: React.FC<HomePageProps> = ({ setCurrentPage }) => {
           {/* Title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg animate-fadeInUp">
             Rotaract Club of <br/>
-            <span className="text-rotary-yellow">Chennai Radiance Risers</span>
+            <span className="text-rotary-yellow">Chennai Radiance Raisers</span>
           </h1>
 
           {/* Rotating Tagline */}
@@ -135,7 +135,7 @@ const HomePage: React.FC<HomePageProps> = ({ setCurrentPage }) => {
               </div>
               
               <h2 className="text-4xl md:text-5xl font-bold text-light-slate leading-tight">
-                Welcome to <span className="text-rotary-yellow">Radiance Risers</span>
+                Welcome to <span className="text-rotary-yellow">Radiance Raisers</span>
               </h2>
               <div className="w-24 h-1.5 bg-rotary-blue rounded-full mx-auto lg:mx-0"></div>
               <p className="text-lg text-slate leading-relaxed">
