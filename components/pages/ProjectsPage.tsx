@@ -250,11 +250,15 @@ const ProjectModal: React.FC<{ project: Project; onClose: () => void }> = ({ pro
 
 const ProjectsPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<ProjectCategory | 'All'>('All');
+  const [searchQuery, setSearchQuery] = useState('');
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const filteredProjects = selectedCategory === 'All' 
-    ? PROJECTS 
-    : PROJECTS.filter(p => p.category === selectedCategory);
+  const filteredProjects = PROJECTS.filter(p => {
+    const matchesCategory = selectedCategory === 'All' || p.category === selectedCategory;
+    const matchesSearch = p.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                         p.description.toLowerCase().includes(searchQuery.toLowerCase());
+    return matchesCategory && matchesSearch;
+  });
 
   const categories = ['All', ...Object.values(ProjectCategory)];
 
@@ -265,25 +269,54 @@ const ProjectsPage: React.FC = () => {
         <p className="text-rotary-yellow text-lg">Service Above Self in Action</p>
       </section>
 
-      {/* Filter Buttons */}
-      <div className="flex flex-wrap justify-center gap-4 mb-12">
-        {categories.map((category) => (
-          <button
-            key={category}
-            onClick={() => setSelectedCategory(category as ProjectCategory | 'All')}
-            className={`px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 transform hover:scale-105 shadow-md ${
-              selectedCategory === category
-                ? 'bg-rotary-yellow text-dark-navy ring-2 ring-rotary-yellow ring-offset-2 ring-offset-dark-navy'
-                : 'bg-light-navy text-slate hover:bg-light-navy/80 hover:text-white'
-            }`}
-          >
-            {category}
-          </button>
-        ))}
+      {/* Search and Filter Section */}
+      <div className="max-w-4xl mx-auto mb-12 space-y-8">
+        {/* Search Bar */}
+        <div className="relative group">
+          <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+            <svg className="w-5 h-5 text-slate group-focus-within:text-rotary-yellow transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+          </div>
+          <input
+            type="text"
+            placeholder="Search projects by title or description..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full bg-light-navy border border-slate/20 rounded-full py-4 pl-12 pr-6 text-light-slate focus:outline-none focus:ring-2 focus:ring-rotary-yellow focus:border-transparent transition-all shadow-lg placeholder:text-slate/50"
+          />
+          {searchQuery && (
+            <button 
+              onClick={() => setSearchQuery('')}
+              className="absolute inset-y-0 right-0 pr-4 flex items-center text-slate hover:text-white transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          )}
+        </div>
+
+        {/* Filter Buttons */}
+        <div className="flex flex-wrap justify-center gap-3">
+          {categories.map((category) => (
+            <button
+              key={category}
+              onClick={() => setSelectedCategory(category as ProjectCategory | 'All')}
+              className={`px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 transform hover:scale-105 shadow-md ${
+                selectedCategory === category
+                  ? 'bg-rotary-yellow text-dark-navy ring-2 ring-rotary-yellow ring-offset-2 ring-offset-dark-navy'
+                  : 'bg-light-navy text-slate hover:bg-light-navy/80 hover:text-white border border-slate/10'
+              }`}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Projects Grid */}
-      <div key={selectedCategory} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fadeInUp">
+      <div key={`${selectedCategory}-${searchQuery}`} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fadeInUp">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((project) => (
             <div key={project.id} className="h-full">
@@ -291,8 +324,18 @@ const ProjectsPage: React.FC = () => {
             </div>
           ))
         ) : (
-          <div className="col-span-full text-center py-20 text-slate">
-            <p className="text-xl">No projects found in this category.</p>
+          <div className="col-span-full text-center py-20 bg-light-navy/30 rounded-2xl border border-dashed border-slate/20">
+            <div className="text-5xl mb-4">🔍</div>
+            <p className="text-xl text-light-slate font-semibold mb-2">No projects found</p>
+            <p className="text-slate">Try adjusting your search or category filter.</p>
+            {(searchQuery || selectedCategory !== 'All') && (
+              <button 
+                onClick={() => { setSearchQuery(''); setSelectedCategory('All'); }}
+                className="mt-6 text-rotary-yellow hover:underline font-medium"
+              >
+                Clear all filters
+              </button>
+            )}
           </div>
         )}
       </div>
