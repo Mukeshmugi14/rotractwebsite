@@ -18,8 +18,8 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
           {/* About Section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
-               <img src={LOGO_URL} alt="Rotaract Club of Chennai Radiance Risers Logo" className="h-14 w-14 rounded-full object-cover" />
-              <h3 className="text-xl font-bold text-light-slate">Rotaract Club of Chennai Radiance Risers</h3>
+               <img src={LOGO_URL} alt="Rotaract Club of Chennai Radiance Raisers Logo" className="h-14 w-14 rounded-full object-cover" />
+              <h3 className="text-xl font-bold text-light-slate">Rotaract Club of Chennai Radiance Raisers</h3>
             </div>
             <p className="text-sm">Rotary Club of Chennai Radiance Family, RID 3233.</p>
           </div>
@@ -50,7 +50,7 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
         </div>
 
         <div className="border-t border-slate/20 mt-8 pt-6 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Rotaract Club of Chennai Radiance Risers. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Rotaract Club of Chennai Radiance Raisers. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
