@@ -21,7 +21,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <div className="flex items-center space-x-4 cursor-pointer" onClick={() => handleNavClick('Home')}>
            <img src={LOGO_URL} alt="Rotaract Club of Chennai Radiance Risers Logo" className="h-12 w-12 rounded-full object-cover" />
-          <span className="text-lg font-bold text-light-slate">Radiance Risers</span>
+          <span className="text-lg font-bold text-light-slate">Radiance Raisers</span>
         </div>
         
         {/* Desktop Nav */}
