@@ -82,7 +82,7 @@ const AboutUsPage: React.FC = () => {
             <div className="w-24 h-1 bg-gradient-to-r from-rotary-blue to-rotary-yellow rounded mt-3" aria-hidden="true"></div>
         </div>
         <p className="text-slate leading-relaxed max-w-4xl mx-auto text-center">
-          The Rotaract Club of Chennai Radiance Risers was chartered on [Charter Date] under the guidance of our parent club, the Rotary Club of Chennai Radiance. Since our inception, we have been a vibrant group of young professionals and students committed to making a difference. Our journey is marked by numerous successful projects, strong community partnerships, and the personal growth of our members, all driven by the spirit of "Service Above Self."
+          The Rotaract Club of Chennai Radiance Raisers was chartered on 5th August 2024 under the guidance of our parent club, the Rotary Club of Chennai Radiance. Since our inception, we have been a vibrant group of young professionals and students committed to making a difference. Our journey is marked by numerous successful projects, strong community partnerships, and the personal growth of our members, all driven by the spirit of "Service Above Self."
         </p>
       </section>
     </div>
